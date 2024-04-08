@@ -42,9 +42,9 @@ dependencies {
     implementation ("com.google.dagger:dagger:2.42")
     kapt("com.google.dagger:dagger-compiler:2.42")
 
-    implementation("androidx.core:core-ktx:1.9.0")  // No need to change.
-    implementation("androidx.appcompat:appcompat:1.6.1")  // Replace with desired version.
-    implementation("com.google.android.material:material:1.8.0") // Replace with desired version.
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")  // No need to change.
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
 }
