@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
             binding.outputField.text = sharedPref.getString(SHARED_PREF_KEY, "")
             Log.d(TAG, "onCreate:getBtn : ${sharedPref.getString(SHARED_PREF_KEY, "")}")
         }
-
     }
+
 
     private fun injectDagger() {
         sharedPrefComp = DaggerSharedPreferenceComponent.builder()
